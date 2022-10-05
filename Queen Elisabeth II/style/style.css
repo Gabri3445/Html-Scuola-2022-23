@@ -1,86 +1,72 @@
-*
-{
+* {
     margin: 0;
     box-sizing: border-box;
 }
 
-.title
-{
+.title {
     text-align: center;
 }
 
-.news
-{
+.news {
     padding-top: 50px;
-    padding-left: 30px;
 }
 
-.italic
-{
+.italic {
     font-style: italic;
-    
+
 }
 
-.bold
-{
+.bold {
     font-weight: bold;
 }
 
-.mainNav{
+.mainNav {
     top: 0;
     position: fixed;
     width: 100%;
     background-color: rgb(255, 255, 255);
-    box-shadow: 1px 7px 18px 5px rgba(0,0,0,0.57);
+    box-shadow: 1px 7px 18px 5px rgba(0, 0, 0, 0.57);
 }
 
-header
-{
+header {
     justify-content: center;
     width: 100%;
     align-items: center;
     display: flex;
 }
 
-.col12
-{
+.col12 {
     width: 75%;
     max-width: 1075px;
     margin-left: auto;
     margin-right: auto;
 }
 
-header div:nth-child(1) img
-{
+header div:nth-child(1) img {
     margin-right: 25px;
     width: 150px;
 }
 
-header div:nth-child(2) img
-{
+header div:nth-child(2) img {
     height: 25px;
     margin-right: 110px;
 }
 
-header div:nth-child(3)
-{
+header div:nth-child(3) {
     flex-grow: 1;
 }
 
-header div:nth-child(4) 
-{
+header div:nth-child(4) {
     margin-right: 5%;
 }
 
-header div:nth-child(5) img
-{
+header div:nth-child(5) img {
     height: 20px;
     margin-left: 25px;
     width: 20px;
 }
 
-.sub
-{
+.sub {
     background-color: red;
     padding-left: 15px;
     border: 0;
@@ -91,59 +77,69 @@ header div:nth-child(5) img
     border: 2px solid black;
 }
 
-.line
-{
+.line {
     width: 100%;
     height: 1px;
     background-color: black;
     margin: 0 auto;
 }
 
-header h3
-{
+header h3 {
     display: inline;
 }
 
-.container
-{
+.container {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 1170px;
 }
 
-.padding
-{
+.padding {
     padding-top: 130px;
 }
 
-.puno
-{
+.puno {
     padding-left: 270px;
 }
 
-.pdue
-{
+.pdue {
     padding-left: 280px;
 }
 
-.ptre
-{
+.ptre {
     padding-left: 285px;
 }
-.text2
-{
-    width: 300px;
+
+.text1 {
     text-align: center;
 }
 
-.text3
-{
+.text2 {
     width: 300px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
 }
 
-.news1
-{
+.text3 {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.news1 {
     padding-top: 50px;
+    text-align: center;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news {
+    text-align: center;
 }
