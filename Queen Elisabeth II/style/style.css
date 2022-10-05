@@ -1,6 +1,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 
 .title {
@@ -68,11 +69,7 @@ header div:nth-child(5) img {
 
 .sub {
     background-color: red;
-    padding-left: 15px;
-    border: 0;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 15px;
     color: white;
     border: 2px solid black;
 }
@@ -99,16 +96,8 @@ header h3 {
     padding-top: 130px;
 }
 
-.puno {
-    padding-left: 270px;
-}
-
-.pdue {
-    padding-left: 280px;
-}
-
-.ptre {
-    padding-left: 285px;
+.author {
+    text-align: right;
 }
 
 .text1 {
@@ -126,11 +115,6 @@ header h3 {
     width: 300px;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
-}
-
-.news1 {
-    padding-top: 50px;
     text-align: center;
 }
 

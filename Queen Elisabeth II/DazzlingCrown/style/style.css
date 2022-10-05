@@ -1,9 +1,21 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
 h1 {
     text-align: center;
 }
 
-h3 {
-    width: 500px;
-    text-align: center;
-    padding-left: 385px;
+img {
+    margin: 0 auto;
+    width: 275px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    width: 550px;
+    text-align: justify;
+    margin: 0 auto;
 }
