@@ -1,21 +1,56 @@
-* {
+*
+{
     font-family: 'Roboto Slab', serif;
+    
 }
 
-h1 {
+h1
+{
     text-align: center;
+    color: red;
 }
 
-img {
+.imgiglo
+{
     margin: 0 auto;
-    width: 275px;
+    width: 50%;
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    
 }
 
-p {
+.img1
+{
+    margin: 0 auto;
+    width: 30%;
+    display: block;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+p 
+{
     font-size: 20px;
     width: 550px;
     text-align: justify;
     margin: 0 auto;
+}
+
+.arrow
+{
+    width: 3%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.source
+{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    text-align: right;
+    display: block;
+    padding-right: 30px;
 }
